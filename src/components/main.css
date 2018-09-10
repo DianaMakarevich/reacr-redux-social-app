@@ -1,0 +1,35 @@
+* {
+    font-family: Arial;
+}
+body {
+    margin: 0;
+}
+.title {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 0;
+}
+.button {
+    margin: 0 auto;
+    display: block;
+    width: 180px;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background: none;
+    border-radius: 6px;
+}
+.container {
+    padding-top: 30px;
+}
+.users {
+    padding-top: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 1rem;
+}

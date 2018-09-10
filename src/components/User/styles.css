@@ -1,0 +1,15 @@
+.user {
+    text-align: center;
+}
+.userPhoto {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.userName {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
